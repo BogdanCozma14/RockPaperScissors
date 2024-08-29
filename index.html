@@ -5,8 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="first-section">
+        <h1>Let's play Rock paper scissors</h1>
+    </div>
+    <div class="choose-section">
+        <h1>What do you choose ? Rock, paper or scissors ? </h1>
+        <div class="buttons">
+            <button class="rock"><img src="images/rock.jpg" alt=""></button>
+            <button class="paper"><img src="images/paper.jpg" alt=""></button>
+            <button class="scissors"><img src="images/scissors.jpg" alt=""></button>
+        </div>
+    </div>
+    <div class="results">
+        <!-- the results are added using DOM methods after the play of at least one round -->
+         <p>The game hasn't been played yet.</p>
+    </div>
+
+    <div class="score">
+        <h1>Your score: 0 points</h1>
+        <h1>Computer's score: 0 points</h1>
+    </div>
 </body>
 </html>

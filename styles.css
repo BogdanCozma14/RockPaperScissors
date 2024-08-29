@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-section {
+    margin: 30px 0;
+}
+.first-section h1 {
+    text-align: center;
+}
+.choose-section {
+    margin: 200px 200px 50px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose-section .buttons {
+    margin-top: 40px;
+}
+.choose-section img {
+    height: 200px;
+    width: 200px;
+    transition: .3s;
+}
+.choose-section img:hover {
+    filter: contrast(110%);
+    transform: scale(110%);
+    transition: .2s;
+}
+.results {
+    padding: 100px;
+    text-align: center;
+}
+.score {
+    text-align: center;
+}
